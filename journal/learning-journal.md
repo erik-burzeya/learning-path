@@ -1,5 +1,8 @@
 # Learning Journal
 
-## Day 1
+## Lesson I., Day I.
 - Setup GitHub
 - Created repository structure
+
+## Lesson I., Day II.
+- Correcting Data Types
