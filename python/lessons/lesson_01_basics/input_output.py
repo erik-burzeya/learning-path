@@ -27,5 +27,19 @@ print("Hello, " + name + "!")
 
 
 #DATA TYPES (important for understanding how to work with variables)
+    #Changing str into int (allows us to do math with the input) and then back to str for concatenation in the print statement.
 age = int(input("How old are you? "))
-print("In 50 years, you will be " + str(age + 50) + " years old.")
+print("At your next birthday, you will be " + str(age + 1) + " years old.")
+
+    #Important: str -> text, int -> whole number, float -> decimal number, bool -> True or False
+#------
+##EXERCISE: "Create a program..."
+#------
+
+#CONDITIONL STATEMENTS
+    #TASK: Create a program that asks the user for their age and then tells them if they are an adult or not.
+    #age = int(input("How old are you? ")) -> This line is already included above, so we can reuse the variable 'age' that we created earlier.
+if age >= 18:
+    print("You are an adult.")
+else:
+    print("You are not an adult.")

@@ -2,7 +2,9 @@
 
 ## Lesson I., Day I.
 - Setup GitHub
-- Created repository structure
+- Creating repository structure
 
 ## Lesson I., Day II.
-- Correcting Data Types
+- Converting from str to int (handling user input)
+- Using basic conditional logic (if/else) based on a value
+
