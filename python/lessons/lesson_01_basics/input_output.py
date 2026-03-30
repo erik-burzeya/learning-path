@@ -28,6 +28,7 @@ print("Hello, " + name + "!")
 
 #DATA TYPES (important for understanding how to work with variables)
     #Changing str into int (allows us to do math with the input) and then back to str for concatenation in the print statement.
+
 age = int(input("How old are you? "))
 print("At your next birthday, you will be " + str(age + 1) + " years old.")
 
@@ -43,4 +44,4 @@ if age >= 18:
     print("You are an adult.")
 else:
     print("You are not an adult.")
-# contribution test
+    

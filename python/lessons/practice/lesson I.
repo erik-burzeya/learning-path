@@ -1,1 +1,27 @@
+✔️ TASK 1: Create a program that requests the following data:
+- name
+- age
+- heigth (in m)
+- student status (yes/no)
 
+✔️ TASK 1.2: Change the unit of heigth to feet (ft), if the user types "yes".
+
+TASK 2: Create a shopping calculator with the following criteria:
+- ask the user
+    - product name
+    - price (e.g. 2.99)
+    - quantity (e.g. 3)
+- convert types correctly
+    - price -> float
+    - quantity -> int
+- calculate
+    - total prize = price x quantity
+-output
+    - example:
+        "You bought 3 apples.
+        Total price: 8.97€."
+    
+! Try this on purpose first: 
+price = input("Price: ")
+quantity = input("Quantity: ")
+total = price * quantity
