@@ -6,7 +6,7 @@
 
 ✔️ TASK 1.2: Change the unit of heigth to feet (ft), if the user types "yes".
 
-TASK 2: Create a shopping calculator with the following criteria:
+✔️ TASK 2: Create a shopping calculator with the following criteria:
 - ask the user
     - product name
     - price (e.g. 2.99)
@@ -25,3 +25,5 @@ TASK 2: Create a shopping calculator with the following criteria:
 price = input("Price: ")
 quantity = input("Quantity: ")
 total = price * quantity
+
+✔️ TASK 2.1: Use a while loop to make it possible to add more items to the chart!
