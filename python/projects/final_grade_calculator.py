@@ -20,6 +20,7 @@ def main():
             subject = input(f"subject {i+1}: ")
             subjects.append(subject)
         #Printing the given subjects
+        print()
         print("These are your subjects:")
         for i, subject in enumerate(subjects):
             print(f"Subject {i+1}: {subject}")
@@ -47,13 +48,28 @@ def main():
         print()
         print("Your marks may vary slightly. The following is a range within which your actual marks are likely to fall:")
         
+        total_min = 0
+        total_max = 0
+
         for i in range(len(subjects)):
             min_points = max(0, points[i] - 3)
             max_points = min(15, points[i] + 3)
-            print(f"{subjects[i]:15}: {min_points:02}-{max_points:02} Punkte")
-        print()
 
+            total_min += min_points
+            total_max += max_points
+
+            print(f"{subjects[i]:15}: {min_points:02}-{max_points:02} Punkte")
         
+        print()
+        
+        #POINT RANGE FOR BLOCK II.
+        print(f"Your total amount of points for block II. could lie between {total_min*5} and {total_max*5} Points.")
+
+        #TOTAL AMOUNT OF POINTS
+        print("All points that have been archieved in the final exams are multiplied by 5 and added to the points of block I.")
+        print("The points of block I. and block II. make up the total amount of points.")
+        print()
+        print(f"Your total amount of points could lie between {(score + total_min)*5} and {(score + total_max)*5} points")
         restart = input("Do you want to start another calculation? (yes/no): ").lower()
 
         if restart == "no":
@@ -65,6 +81,6 @@ def main():
 
          
             
-        pass
+    pass
 
 main()
