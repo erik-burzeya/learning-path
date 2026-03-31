@@ -1,6 +1,6 @@
 #TASK 1:
 def task1():
-    print("Task 1:")
+    print("TASK 1:")
     name = input("What is your name? ")
     print("Hello, " + name.capitalize() + "!")
 
@@ -25,7 +25,7 @@ def task1():
 #TASK 2:
 
 def task2():
-    print("Task 2:")
+    print("TASK 2:")
     print("Welcome to the shopping cart program!")
     total = 0   # This variable will keep track of the total price of the items in the cart.
 
@@ -50,4 +50,26 @@ def task2():
         else: print("Invalid command.\n")
 
 
-task2()
+
+#--------------------------------------
+#TASK 3:
+def task3():
+    print("TASK 3:")
+
+    score = float(input("Please provide your SCORE: "))
+    if score <50:
+        print("You failed.")
+    elif 50 <= score <75:
+        print("You passed.")
+    elif 75 <= score < 90:
+        print("Good.")
+    elif 90 <= score < 100:
+        print("Excellent!")
+    elif score == 100:
+        print("Perfect score!")
+
+#MERKREGEL: untere_grenze <= variable < obere_grenze
+
+#TASK 3.1:
+
+    

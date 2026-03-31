@@ -27,3 +27,34 @@ quantity = input("Quantity: ")
 total = price * quantity
 
 ✔️ TASK 2.1: Use a while loop to make it possible to add more items to the chart!
+
+TASK 3: Grade evaluation
+
+Ask the user for a score (0–100) and print the grade:
+    90–100 → "Excellent"
+    75–89 → "Good"
+    50–74 → "Pass"
+    below 50 → "Fail"
+➕ Extra Challenge:
+If the score is exactly 100, print "Perfect score!"
+Use 'and' for ranges
+
+TASK 3.1: Access System
+
+Ask for: 
+    - age
+    - has_ticket
+    - is_vip
+
+Rules:
+Access is granted if:
+    - age ≥ 18 AND has a ticket
+OR
+    - the user is VIP
+
+➕ Extra Challenge:
+- If age < 16 → always deny (use not or priority logic)
+- Print different messages:
+    - "Access granted"
+    - "Access denied"
+    - "VIP access granted"
