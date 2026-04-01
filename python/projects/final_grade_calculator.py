@@ -8,6 +8,11 @@ def points_to_grade(points: int) -> float:
     return min(grade, 4.0)
 
 def main():
+
+    #MENU
+    
+
+
     while True:                 #While loop: making it possible to stop or repeat the calculation
         print()
         print("Welcome to the 'Average Grade Probability' calculator!")
