@@ -73,3 +73,22 @@ def task3():
 #TASK 3.1:
 
     
+#TASK 4: Lists
+def task4():
+    numbers = [3, 8, 1, 10, 5, 12]
+    largest = numbers[0]
+
+    for number in numbers:
+        if number > largest:
+            largest = number
+
+    print(f"Largest number: {largest}")
+
+    print(f"Even numbers:", end=" ")
+
+    for number in numbers:
+        if number % 2 == 0:
+                print(number, end=" ")
+
+
+task4()
