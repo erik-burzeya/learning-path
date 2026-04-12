@@ -91,4 +91,30 @@ def task4():
                 print(number, end=" ")
 
 
-task4()
+def dictionary():
+
+    person = {
+            "name": "Max",
+            "age": 18,
+            "city": "Duisburg"
+    }
+
+    print(person["name"])
+    print(person["age"])
+
+    person["age"] = person["age"] + 1
+
+    print(f"Age + 1 is {person['age']}")
+
+    person["hobby"] = "Running"
+    print(person["hobby"])
+
+    people = []
+
+    people.append(person)
+    person["city"] = "Dortmund"
+    
+    print("All new:")
+    print(person)
+
+dictionary()

@@ -34,3 +34,9 @@
 - Learning about debugging and common mistakes
     - understanding the importance of indentation in python
     - fixing index errors (i vs i+1)
+
+## Lesson I., Day V.
+- Worked on lists, loops and conditions
+- Learned how to find the largest value and filter even numbers in a list
+
+## Lesson I., Day VI.

@@ -96,5 +96,12 @@ def for_loops():
             print(number)
 pass
 
-for_loops()
+def dictionarys():
+   
+#**Inhalt:**
+#- Key-Value Prinzip
+# #**Aufgaben:**
 
+#- Person speichern (`name`, `age`, etc.)
+#- Werte abrufen und ändern
+     pass

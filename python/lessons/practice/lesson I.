@@ -20,16 +20,14 @@
     - example:
         "You bought 3 apples.
         Total price: 8.97€."
-    
-! Try this on purpose first: 
-price = input("Price: ")
-quantity = input("Quantity: ")
-total = price * quantity
+    ! Try this on purpose first: 
+    price = input("Price: ")
+    quantity = input("Quantity: ")
+    total = price * quantity
 
 ✔️ TASK 2.1: Use a while loop to make it possible to add more items to the chart!
 
 ✔️ TASK 3: Grade evaluation
-
 Ask the user for a score (0–100) and print the grade:
     90–100 → "Excellent"
     75–89 → "Good"
@@ -58,3 +56,16 @@ OR
     - "Access granted"
     - "Access denied"
     - "VIP access granted"
+
+Task 4: “Profile Manager”
+Create a dictionary that represents a person and then manipulate it.
+1. Create a dictionary person with at least:
+- name
+- age
+- city
+2. Print the person's name and age.
+3. Increase the age by 1 (simulate a birthday).
+4. Add a new key:
+5. hobby
+6. Change the city to a new one.
+7. Print the final dictionary.
