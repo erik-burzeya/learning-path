@@ -59,13 +59,12 @@ OR
 
 Task 4: “Profile Manager”
 Create a dictionary that represents a person and then manipulate it.
-1. Create a dictionary person with at least:
+✔️ 1. Create a dictionary person with at least:
 - name
 - age
 - city
-2. Print the person's name and age.
-3. Increase the age by 1 (simulate a birthday).
-4. Add a new key:
-5. hobby
-6. Change the city to a new one.
-7. Print the final dictionary.
+✔️ 2. Print the person's name and age.
+✔️ 3. Increase the age by 1 (simulate a birthday).
+✔️ 4. Add a new key: hobby
+5. Change the city to a new one.
+6. Print the final dictionary.

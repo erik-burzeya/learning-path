@@ -1,5 +1,7 @@
 # Learning Journal
 
+*Note: Lesson I (Day I - VI) inklude basic tasks. Starting from Day VI, the structure will follow the book "Python 3 Crashkurs" by Eric Matthes.*
+
 ## Lesson I., Day I.
 - Setting up GitHub
 - Creating repository structure
@@ -26,7 +28,7 @@
     - Adding elements using: list.append(value)
     - Accessing elements using an index: subjects[i], points[i]
 - Learning about combining (matching) data: for i in range(len(subjects)):
-- Learning about input validation (ensuring values are within a valid range (e.g. 0 - 15))
+- Learning about input validation (ensuring values are within a valid range)
 - Building a program using
     - a main() function
     - an outer while True loop for restarting
@@ -40,3 +42,8 @@
 - Learned how to find the largest value and filter even numbers in a list
 
 ## Lesson I., Day VI.
+**- Started working with the book "Python 3 Crashkurs" by Eric Matthes**
+- Restructuring my files structure
+
+## Chapter 1
+- Running python code in the terminal (macOS and Windows)
