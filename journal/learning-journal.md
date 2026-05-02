@@ -45,5 +45,9 @@
 **- Started working with the book "Python 3 Crashkurs" by Eric Matthes**
 - Restructuring my files structure
 
-## Chapter 1
+## Chapter 1, Day I.
 - Running python code in the terminal (macOS and Windows)
+
+##Chapter 1, Day II.
+- Using SSH Key instead of a personal access token
+
