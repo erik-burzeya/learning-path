@@ -48,3 +48,6 @@
 ## Chapter 1, Day I.
 - Running python code in the terminal (macOS and Windows)
 - Using SSH Key instead of a personal access token
+
+## Chapter 1, Day II.
+- Running python code in the terminal (macOS and Windows)
