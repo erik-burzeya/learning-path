@@ -41,13 +41,18 @@
 - Worked on lists, loops and conditions
 - Learned how to find the largest value and filter even numbers in a list
 
-## Lesson I., Day VI.
+## 01.05.2026
 - **Started working with the book "Python 3 Crashkurs" by Eric Matthes**
 - Restructuring my files structure
 
-## Chapter 1, Day I.
-- Running python code in the terminal (macOS and Windows)
+## 02.05.2026
+- Running python code in the terminal (macOS and Windows) (Chapter 1)
 - Using SSH Key instead of a personal access token
 
-## Chapter 1, Day II.
+## 03.05.2026
 - Running python code in the terminal (macOS and Windows)
+- Chapter 2: Variables and basic data types
+- New commit message structure:
+    Add:
+    Fix:
+    Refactor:
