@@ -56,3 +56,6 @@
     Add:
     Fix:
     Refactor:
+
+## 04.05.2026
+- Finishing Chapter 2: Variables and basic data types

@@ -76,3 +76,107 @@ print(name.title())
 # The dot after "name" implies that the following method must be applied to the variable "name".
 # Methods need declarations (that will be added in brackets). 
 # The medhod "title" doesn't need these, therefore the brackets are empty.
+
+name = "ada lovelace"
+print(name.upper())
+print(name.lower())
+
+# Result => "ADA LOVELACE" AND "ada lovelace"
+# print(name.lower()) is especially useful when storing data. Users might make a spelling mistake.
+# The correct spelling can be applied later.
+
+
+# ---------------
+# VARIABLES IN STRINGS
+
+first_name = "ada"
+last_name = "lovelace"
+full_name = f"{first_name} {last_name}" # "f" is used to insert a variable in a string (inside the curly brackets)
+print(full_name)
+
+# Other examples for "F-STRINGS":
+
+print(f"Hello, {full_name.title()}!")
+
+# OR
+
+message = f"Hello, {full_name.title()}!"
+print(message)
+
+
+# ---------------
+# ADDING WHITE SPACE
+# (non-printable symbols like space-/tab characters or line breaks)
+
+# Tab characters:
+
+# \t
+print("Python")
+#Python
+
+print("\t Python")
+#   Python
+
+# Line breaks:
+# \n
+print("\nLanguages: \nPython\nJavaScript\nCSS")
+
+# Tab charakters and line breaks can be combindes:
+
+print("\nLanguages: \n\tPython\n\tJavaScript\n\tCSS")
+
+
+# ---------------
+# REMOVING WHITE SPACE
+
+# "rstrip" OR "lstrip" (removing spaces from the left or right side of a string)
+
+first_name = "ada"
+last_name = "lovelace " # The space after "lovelace" would be visible without the method ".rstrip()"!
+full_name = f"{first_name} {last_name}"
+message = f"Hello, {full_name.title().rstrip()}!"
+print(message)
+
+# ---------------
+# CALCULATING
+
+a = 10
+b = 3
+
+addition = a + b
+subtraction = a - b
+multiplication = a * b
+division = a / b
+exponents = a**b
+
+
+print(a + b, a**b)
+
+universe_age = 14_000_000_000
+print(universe_age)
+# Result => 14000000000
+
+
+# ---------------
+# CONSTANT
+
+# A constant does not change during the lifespan of the program.
+# By convention, Python programmers use uppercase letters to indicate 
+# that a variable should be treated as a constant.
+
+MAX_CONNECTIONS = 5000
+
+# ---------------
+# COMMENT
+
+# 
+
+
+# ---------------
+# THE ZEN OF PYTHON
+
+# "Beautiful is better than ugly."
+
+# "Simple is better than complex"
+
+# Readability counts
