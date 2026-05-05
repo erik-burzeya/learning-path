@@ -1,3 +1,4 @@
+# CHAPTER 1
 # Installing Python 
 
 ## On MacOS:

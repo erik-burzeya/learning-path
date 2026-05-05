@@ -1,4 +1,5 @@
-##VARIABLES AND BASIC DATA TYPES
+# CHAPTER 2
+# VARIABLES AND BASIC DATA TYPES
 
     ## .py shows the filetype (python file)
     ## The python interpreter reads the code.
