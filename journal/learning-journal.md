@@ -42,7 +42,7 @@
 - Learned how to find the largest value and filter even numbers in a list
 
 ## 01.05.2026
-- **Started working with the book "Python 3 Crashkurs" by Eric Matthes**
+- **Starting to work with the book "Python 3 Crashkurs" by Eric Matthes**
 - Restructuring my files structure
 
 ## 02.05.2026
@@ -58,4 +58,10 @@
     Refactor:
 
 ## 04.05.2026
+- Chapter 2: Variables and basic data types
+
+## 05.05.2026
 - Finishing Chapter 2: Variables and basic data types
+
+## 06.05.2026
+- Chapter 3: An introduction to lists
