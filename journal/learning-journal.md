@@ -65,3 +65,7 @@
 
 ## 06.05.2026
 - Chapter 3: An introduction to lists
+
+## 07.05.2026
+- Fixing the name of chapter 3 (_py)
+- Finishing Chapter 3: An introduction to lists

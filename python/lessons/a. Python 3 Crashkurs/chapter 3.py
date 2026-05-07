@@ -119,3 +119,54 @@ print(fruits)
 
 # The method remove() makes Python search for an element and remove it.
 # Another example: "1. sandox_2.py"
+
+print()
+
+
+# ---------------
+# SORTING LISTS:
+
+# Using the method srot(), the order of elements of a list can be changed.
+
+latinPlantNames = ['Orchidacae', 'Digitalis', 'Tulpia', 'Rosa', 'Lilium', 'Dahlia']
+print(f"Some latin plant names: {latinPlantNames}")
+
+print()
+print("Sorted (in alphabetical order):")
+print()
+
+latinPlantNames.sort()
+print(latinPlantNames)
+
+print()
+print("Sorted (in reversed alphabetical order):")
+latinPlantNames.sort(reverse=True)
+print(latinPlantNames)
+
+# When using the sort()-method, a lists order is changed permanently.
+
+print()
+
+
+# Sorting lists temporarily                 --------------------
+
+latinPlantNames = ['Orchidacae', 'Digitalis', 'Tulpia', 'Rosa', 'Lilium', 'Dahlia']
+print(latinPlantNames)
+print(f"Temporarily sorted list of the latin plant names: {sorted(latinPlantNames)}")
+
+
+# Finding the length of a list              --------------------
+
+print(len(latinPlantNames))
+
+# The function len counts the number of elements of a list
+
+
+# ---------------
+# AVOIDING INDEX ERRORS:
+
+# The last element of a list can be displayed using "print(listName[-1])"!
+
+# The first element is located at index 0!
+
+# Often, index errors can be solved by checking the list's length!
