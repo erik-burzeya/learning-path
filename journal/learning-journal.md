@@ -69,3 +69,6 @@
 ## 07.05.2026
 - Fixing the name of chapter 3 (chapter 3_py)
 - Finishing Chapter 3: An introduction to lists
+
+## 08.05.2026
+- Chapter 4: Working with lists
