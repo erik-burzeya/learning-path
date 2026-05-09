@@ -72,3 +72,6 @@
 
 ## 08.05.2026
 - Chapter 4: Working with lists
+
+## 09.05.2026
+- Working on Chapter 4: Working with lists
