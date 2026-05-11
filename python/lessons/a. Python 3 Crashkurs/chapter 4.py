@@ -154,3 +154,57 @@ print(f"My friends foods are: {friends_foods}!")
 
 print()
 
+# ---------------
+# TUPLES:
+
+print("TUPLES:")
+print()
+
+print("Tuples are lists with parentheses instead of square brackets, which cannot be modified after creation.")
+
+print()
+
+dimensions = (300, 30)
+print(dimensions[0])
+print(dimensions[1])
+
+print()
+
+# We cannot change an element inside of a tuple!
+# dimensions = (300,30)
+# dimensions[0] = 250
+
+    #  dimensions[0] = 250
+    # TypeError: 'tuple' object does not support item assignment
+
+# TUPLES ARE (TECHNICALLY) DEFINED BY THE EXISTANCE OF A COMMA!
+
+    # RUNNING THROUGH THE ELEMENTS OF A TUPLE:
+
+    # Tuples can be run through like a list
+
+    # Changing a tuple is NOT possible, altough changing a variable that holds a tuple IS possible, e.g.:
+
+dimensions = (300, 30)
+print("Original dimensions:")
+for dimension in dimensions:
+    print(dimension)
+
+dimensions = (400, 40)
+print("\nOriginal dimensions:")
+for dimension in dimensions:
+    print(dimension)
+
+# Compared to lists, tuples are simple data structures.
+
+print()
+
+
+# ---------------
+# FORMATTING RULES (PEP 8 style guidelines):
+
+# A combination of spaces and indents can lead to confusion.
+# Lines should be no longer than 80 characters.
+# Spaces can be useful, e.g. to structure files, but should not be used excessively.
+
+# PEP 8 = Python Enhancement Proposal 8

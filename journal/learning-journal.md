@@ -74,4 +74,7 @@
 - Chapter 4: Working with lists
 
 ## 09.05.2026
-- Working on Chapter 4: Working with lists
+- Working on Chapter 4: Working with lists (slices, copying lists, etc.)
+
+## 11.06.2026
+- Finishing Chapter 4: Working with lists
