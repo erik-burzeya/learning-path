@@ -1,0 +1,29 @@
+## Table of Contents
+
+- CHAPTER 01: Introduction
+- CHAPTER 02: A Crash Course in Python
+- CHAPTER 03: Visualizing Data
+- CHAPTER 04: Linear Algebra
+- CHAPTER 05: Statistics
+- CHAPTER 06: Probability
+- CHAPTER 07: Hypothesis and Inference
+- CHAPTER 08: Gradient Descent
+- CHAPTER 09: Getting Data
+- CHAPTER 10: Working With Data
+- CHAPTER 11: Machine Learning
+- CHAPTER 12: k-Nearest Neighbors
+- CHAPTER 13: Naive Bayes
+- CHAPTER 14: Simple Linear Regression
+- CHAPTER 15: Multiple Regression
+- CHAPTER 16: Logistic Regression
+- CHAPTER 17: Decision Trees
+- CHAPTER 18: Neural Networks
+- CHAPTER 19: [Deep Learning]
+- CHAPTER 20: Clustering
+- CHAPTER 21: Natural Language Processing
+- CHAPTER 22: Network Analysis
+- CHAPTER 23: Recommender Systems
+- CHAPTER 24: Databases and SQL
+- CHAPTER 25: MapReduce
+- CHAPTER 26: Data Ethics
+- CHAPTER 27: Go Forth And Do Data Science

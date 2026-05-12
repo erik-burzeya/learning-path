@@ -81,3 +81,6 @@
 
 ## 12.06.2026
 - Reformatting my files according to the PEP 8
+- Chapter 5: if-statements
+- Comparison-operators
+- Creating a data science folder and folder structure
