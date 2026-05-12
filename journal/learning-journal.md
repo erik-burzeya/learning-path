@@ -84,3 +84,4 @@
 - Chapter 5: if-statements
 - Comparison-operators
 - Creating a data science folder and folder structure
+- Installing matplotlib
