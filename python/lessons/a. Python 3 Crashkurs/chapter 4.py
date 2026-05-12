@@ -7,7 +7,8 @@ print("ITERATING THROUGH A COMPLETE LIST:")
 print()
 
 
-iPhones = ['iPhone, 2007', 'iPhone 3G, 2008', 'iPhone 3GS, 2009', 'iPhone 4, 2010']
+iPhones = ['iPhone, 2007', 'iPhone 3G, 2008',
+           'iPhone 3GS, 2009', 'iPhone 4, 2010']
 print("These are the first four iPhones:")
 for iPhones in iPhones:
     print(iPhones)
@@ -20,24 +21,26 @@ for iPhones in iPhones:
     # iPhone 3GS, 2009
     # iPhone 4, 2010
 
-# Python always returns to the first part of the command, as there are still elements left.
+# Python always returns to the first part of the command, as there are
+# still elements left.
 
 # Typical mistakes:
 
     # Indentation Errors are typical errors for coding-beginners!
-        # pizza = ['1', '2', '3']
-        # for pizza in pizza:
-        # print(pizza)                          <- This should be indented
+    # pizza = ['1', '2', '3']
+    # for pizza in pizza:
+    # print(pizza)                      <- This should be indented
 
-        # pizza = ['1', '2', '3']
-        # for pizza in pizza:
-        #   print(pizza)   
-        #   print("That was a good pizza!")     <- As it is indented, the command is part of the loop.
+    # pizza = ['1', '2', '3']
+    # for pizza in pizza:
+    #   print(pizza)
+    # print("That was a good pizza!")   <- As it is indented, the command is
+    # part of the loop.
 
     # Forgotten colon at the end
-        # pizza = ['1', '2', '3']
-            # for pizza in pizza                <- A colon is needed at this position to make the loop work
-            #   print(pizza)
+    # pizza = ['1', '2', '3']
+    # for pizza in pizza                <- A colon is needed at this position to
+    #   print(pizza)                       make the loop work
 
 print()
 
@@ -49,10 +52,10 @@ print()
 
 # range()-function:
 
-for value in range(1,5):
+for value in range(1, 5):
     print(value)
 
-for value in range(1,6):
+for value in range(1, 6):
     print(value)
 
 
@@ -62,35 +65,36 @@ print()
 # Converting range() to a list:
 
 
-numbers = list(range(1,6))
+numbers = list(range(1, 6))
 print(numbers)
 
 # Displaying only even numbers:
 
 print()
 print("Even numbers:")
-even_numbers = list(range(2,11,2))
+even_numbers = list(range(2, 11, 2))
 print(even_numbers)
 
 print()
 print("Uneven numbers:")
-uneven_numbers = list(range(1,10,2))
+uneven_numbers = list(range(1, 10, 2))
 print(uneven_numbers)
 
 
 # Displaying squares:
 
 squares = []
-for value in range(1,11):
+for value in range(1, 11):
     square = value**2
     squares.append(square)
 
 print(squares)
 
-# OR:       => First try to write code correctly. Trying to make code shorter can be done later.
+# OR:       => First try to write code correctly. Trying to make code
+# shorter can be done later.
 
 squares = []
-for value in range(1,11):
+for value in range(1, 11):
     squares.append(value**2)
 print(squares)
 
@@ -108,7 +112,7 @@ print()
 
 # Notation of lists:
 
-squares = [value**2 for value in range(1,11)]
+squares = [value**2 for value in range(1, 11)]
 print(squares)
 
 print()
@@ -125,15 +129,17 @@ print(animals[0:3])                 # => Only the required subset is displayed.
 # More examples:
 
 print(animals[:5])      # => Python automatically starts at the first position.
-print(animals[2:])      # => Python automatically displays all elements, starting with the THIRD element.
+# => Python automatically displays all elements, starting with the THIRD element.
+print(animals[2:])
 print(animals[-3:])     # => ['bird', 'horse', 'worm']
-print(animals[1::2])    # => ['cat', 'horse'] (every second element is displayed)
+# => ['cat', 'horse'] (every second element is displayed)
+print(animals[1::2])
 
 print()
 
 
 # Copying lists:
-# Lists can be copied using "[:]": 
+# Lists can be copied using "[:]":
 
 my_foods = ['carrot cake', 'noodles', 'sushi']
 friends_foods = my_foods[:]
@@ -160,7 +166,9 @@ print()
 print("TUPLES:")
 print()
 
-print("Tuples are lists with parentheses instead of square brackets, which cannot be modified after creation.")
+print(
+    "Tuples are lists with parentheses instead of square brackets, "
+    "which cannot be modified after creation.")
 
 print()
 
@@ -174,16 +182,17 @@ print()
 # dimensions = (300,30)
 # dimensions[0] = 250
 
-    #  dimensions[0] = 250
-    # TypeError: 'tuple' object does not support item assignment
+#  dimensions[0] = 250
+# TypeError: 'tuple' object does not support item assignment
 
 # TUPLES ARE (TECHNICALLY) DEFINED BY THE EXISTANCE OF A COMMA!
 
-    # RUNNING THROUGH THE ELEMENTS OF A TUPLE:
+# RUNNING THROUGH THE ELEMENTS OF A TUPLE:
 
-    # Tuples can be run through like a list
+# Tuples can be run through like a list
 
-    # Changing a tuple is NOT possible, altough changing a variable that holds a tuple IS possible, e.g.:
+# Changing a tuple is NOT possible, altough changing a variable that holds
+# a tuple IS possible, e.g.:
 
 dimensions = (300, 30)
 print("Original dimensions:")
@@ -205,6 +214,11 @@ print()
 
 # A combination of spaces and indents can lead to confusion.
 # Lines should be no longer than 80 characters.
-# Spaces can be useful, e.g. to structure files, but should not be used excessively.
+# Spaces can be useful, e.g. to structure files, but should not be used
+# excessively.
 
 # PEP 8 = Python Enhancement Proposal 8
+
+
+def test(x, y):
+    print(x + y)

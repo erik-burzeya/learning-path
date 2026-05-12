@@ -1,9 +1,10 @@
 # CHAPTER 2
 # VARIABLES AND BASIC DATA TYPES
 
-    ## .py shows the filetype (python file)
-    ## The python interpreter reads the code.
-    ## The editor colors the code (dt. Syntaxkennzeichnung, engl. syntax highlighting)
+# .py shows the filetype (python file)
+# The python interpreter reads the code.
+# The editor colors the code (dt. Syntaxkennzeichnung, engl. syntax
+# highlighting)
 
 
 # ---------------
@@ -21,7 +22,7 @@ print(message)
 message = "Hello Python Crash Course world!"
 print(message)
 
-# The resulting output is 
+# The resulting output is
 # "Hello Python world!"
 # "Hello Python Crash Course world!"
 
@@ -38,24 +39,26 @@ print(message)
 # Python keywords or -funktion names are not allowed
 # Variable names must be short and meaningful
 # (e.g.: "name" is better than "n" and "name_length" is better than "length")
-# Be careful when using I and o/O, as these could be confused with 1 (one) and 0 (zero)
+# Be careful when using I and o/O, as these could be confused with 1 (one)
+# and 0 (zero)
 
 
 # ---------------
 # AVOIDING MISTAKES WITH VARIABLE NAMES
 
-# Wrong: 
+# Wrong:
 # message = "Hello Python world!"
 # print(mesage)
 
 # The terminal shows the location of a possible mistake (traceback):
-    # Traceback (most recent call last):
-    #  File "/Users/erikburzeya/Documents/07. Lernen/Programmieren (Lernpfad I.)/learning-path/python/lessons
-    #  /a. Python 3 Crashkurs/chapter 2.py", line 48, in <module>
-    #    print(mesage)
-    # NameError: name 'mesage' is not defined
+# Traceback (most recent call last):
+#  File "/Users/erikburzeya/Documents/07. Lernen/Programmieren (Lernpfad I.)
+# /learning-path/python/lessons
+#  /a. Python 3 Crashkurs/chapter 2.py", line 48, in <module>
+#    print(mesage)
+# NameError: name 'mesage' is not defined
 
-# Programming languages ​​don't distinguish between good and bad spelling. 
+# Programming languages ​​don't distinguish between good and bad spelling.
 # If we had typed "mesage" both times, we would have gotten a correct result.
 
 
@@ -74,8 +77,9 @@ name = "ada lovelace"
 print(name.title())
 
 # The METHOD "title()"" displays all words in capital letters.
-# The dot after "name" implies that the following method must be applied to the variable "name".
-# Methods need declarations (that will be added in brackets). 
+# The dot after "name" implies that the following method must be applied to the
+# variable "name".
+# Methods need declarations (that will be added in brackets).
 # The medhod "title" doesn't need these, therefore the brackets are empty.
 
 name = "ada lovelace"
@@ -83,7 +87,8 @@ print(name.upper())
 print(name.lower())
 
 # Result => "ADA LOVELACE" AND "ada lovelace"
-# print(name.lower()) is especially useful when storing data. Users might make a spelling mistake.
+# print(name.lower()) is especially useful when storing data. Users might make a
+# spelling mistake.
 # The correct spelling can be applied later.
 
 
@@ -92,7 +97,8 @@ print(name.lower())
 
 first_name = "ada"
 last_name = "lovelace"
-full_name = f"{first_name} {last_name}" # "f" is used to insert a variable in a string (inside the curly brackets)
+# "f" is used to insert a variable in a string (inside the curly brackets)
+full_name = f"{first_name} {last_name}"
 print(full_name)
 
 # Other examples for "F-STRINGS":
@@ -113,7 +119,7 @@ print(message)
 
 # \t
 print("Python")
-#Python
+# Python
 
 print("\t Python")
 #   Python
@@ -133,7 +139,8 @@ print("\nLanguages: \n\tPython\n\tJavaScript\n\tCSS")
 # "rstrip" OR "lstrip" (removing spaces from the left or right side of a string)
 
 first_name = "ada"
-last_name = "lovelace " # The space after "lovelace" would be visible without the method ".rstrip()"!
+# The space after "lovelace" would be visible without the method ".rstrip()"!
+last_name = "lovelace "
 full_name = f"{first_name} {last_name}"
 message = f"Hello, {full_name.title().rstrip()}!"
 print(message)
@@ -162,7 +169,7 @@ print(universe_age)
 # CONSTANT
 
 # A constant does not change during the lifespan of the program.
-# By convention, Python programmers use uppercase letters to indicate 
+# By convention, Python programmers use uppercase letters to indicate
 # that a variable should be treated as a constant.
 
 MAX_CONNECTIONS = 5000
@@ -170,7 +177,7 @@ MAX_CONNECTIONS = 5000
 # ---------------
 # COMMENT
 
-# 
+#
 
 
 # ---------------

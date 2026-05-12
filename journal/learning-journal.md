@@ -78,3 +78,6 @@
 
 ## 11.06.2026
 - Finishing Chapter 4: Working with lists
+
+## 12.06.2026
+- Reformatting my files according to the PEP 8

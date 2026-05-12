@@ -1,4 +1,4 @@
-#TASK 1:
+# TASK 1:
 def task1():
     print("TASK 1:")
     name = input("What is your name? ")
@@ -11,23 +11,23 @@ def task1():
     print("Would you like to know your height in foot? Please type yes or no")
     answer = input()
     if answer.lower() == "yes":
-        foot = height * 3.28084   #This calculation should not be done beforehand, because if the user says no, it will be a waste of resources.
+        # This calculation should not be done beforehand, because if the user
+        # says no, it will be a waste of resources.
+        foot = height * 3.28084
         print("Your height in foot is: " + str(foot) + " ft.")
     elif answer.lower() == "no":
         print(".")
 
 
-
-
-
-
-#--------------------------------------
-#TASK 2:
+# --------------------------------------
+# TASK 2:
 
 def task2():
     print("TASK 2:")
     print("Welcome to the shopping cart program!")
-    total = 0   # This variable will keep track of the total price of the items in the cart.
+    # This variable will keep track of the total price of the items in the
+    # cart.
+    total = 0
 
 # First Product:
     price = float(input("Pric of the item: "))
@@ -36,30 +36,32 @@ def task2():
 
 # Now the loop:
     while True:
-        command = input("Type 'add' to add an item to your cart or 'checkout' to finish: ").strip().lower()
-            
+        command = input(
+            "Type 'add' to add an item to your cart or 'checkout' to finish: "
+        ).strip().lower()
+
         if command == "checkout":
             print("Total:", total, "€")
             break
-    
+
         elif command == "add":
-                price = float(input("Price: "))
-                quantity = int(input("Quantity: "))
-                total += price * quantity
+            price = float(input("Price: "))
+            quantity = int(input("Quantity: "))
+            total += price * quantity
 
-        else: print("Invalid command.\n")
+        else:
+            print("Invalid command.\n")
 
 
-
-#--------------------------------------
-#TASK 3:
+# --------------------------------------
+# TASK 3:
 def task3():
     print("TASK 3:")
 
     score = float(input("Please provide your SCORE: "))
-    if score <50:
+    if score < 50:
         print("You failed.")
-    elif 50 <= score <75:
+    elif 50 <= score < 75:
         print("You passed.")
     elif 75 <= score < 90:
         print("Good.")
@@ -68,12 +70,12 @@ def task3():
     elif score == 100:
         print("Perfect score!")
 
-#MERKREGEL: untere_grenze <= variable < obere_grenze
+# MERKREGEL: untere_grenze <= variable < obere_grenze
 
-#TASK 3.1:
+# TASK 3.1:
 
-    
-#TASK 4: Lists
+
+# TASK 4: Lists
 def task4():
     numbers = [3, 8, 1, 10, 5, 12]
     largest = numbers[0]
@@ -88,15 +90,15 @@ def task4():
 
     for number in numbers:
         if number % 2 == 0:
-                print(number, end=" ")
+            print(number, end=" ")
 
 
 def dictionary():
 
     person = {
-            "name": "Max",
-            "age": 18,
-            "city": "Duisburg"
+        "name": "Max",
+        "age": 18,
+        "city": "Duisburg"
     }
 
     print(person["name"])
@@ -113,8 +115,9 @@ def dictionary():
 
     people.append(person)
     person["city"] = "Dortmund"
-    
+
     print("All new:")
     print(person)
+
 
 dictionary()

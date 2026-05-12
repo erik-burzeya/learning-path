@@ -17,11 +17,12 @@ print(bicycles[0])
 
 # Now, the first Element is pinted.
 
-# Accessing an element can be archieved by telling the programm to print the x-element of the list.
-# If we want to print an element aton the end of a list (e.g. 20/400/7.0000/...), we can ask the
-# programm to print the -x-element.
+# Accessing an element can be archieved by telling the programm to print the
+# x-element of the list.
+# If we want to print an element aton the end of a list (e.g. 20/400/7.0000/...),
+# we can ask the programm to print the -x-element.
 
-print(bicycles[-1]) # => specialized is printed
+print(bicycles[-1])  # => specialized is printed
 
 
 print()
@@ -69,7 +70,8 @@ print()
 # Inserting elements                        --------------------
 # Elements can be inserted using the method insert(), e.g.:
 fruits.insert(1, 'orange')
-print(fruits) # => The fruit "orange" is inserted on position 1 (between "apple" and "banana")
+# => The fruit "orange" is inserted on position 1 (between "apple" and "banana")
+print(fruits)
 # The "first" element of a list is the position 0
 
 print()
@@ -81,7 +83,8 @@ print()
 del fruits[0]
 print(fruits)
 
-# AFTER REMOVING AN ELEMENT, IT IS NO LONGER POSSIBLE TO ACCESS THE DELETED VALUE!!!
+# AFTER REMOVING AN ELEMENT, IT IS NO LONGER POSSIBLE TO ACCESS THE
+# DELETED VALUE!!!
 
 # Removing elements with the method pop()    --------------------
 # By using the method pop() instead of del(), elements can still be used!
@@ -96,7 +99,8 @@ print(fruits)
 
 popped_fruits = fruits.pop()
 print(fruits)
-print(popped_fruits) # The elements, which has been removed from the list, is printed.
+# The elements, which has been removed from the list, is printed.
+print(popped_fruits)
 
 # This method is useful for making a statement about the (last) element, e.g.:
 
@@ -128,7 +132,13 @@ print()
 
 # Using the method srot(), the order of elements of a list can be changed.
 
-latinPlantNames = ['Orchidacae', 'Digitalis', 'Tulpia', 'Rosa', 'Lilium', 'Dahlia']
+latinPlantNames = [
+    'Orchidacae',
+    'Digitalis',
+    'Tulpia',
+    'Rosa',
+    'Lilium',
+    'Dahlia']
 print(f"Some latin plant names: {latinPlantNames}")
 
 print()
@@ -150,9 +160,16 @@ print()
 
 # Sorting lists temporarily                 --------------------
 
-latinPlantNames = ['Orchidacae', 'Digitalis', 'Tulpia', 'Rosa', 'Lilium', 'Dahlia']
+latinPlantNames = [
+    'Orchidacae',
+    'Digitalis',
+    'Tulpia',
+    'Rosa',
+    'Lilium',
+    'Dahlia']
 print(latinPlantNames)
-print(f"Temporarily sorted list of the latin plant names: {sorted(latinPlantNames)}")
+print(
+    f"Temporarily sorted list of the latin plant names: {sorted(latinPlantNames)}")
 
 
 # Finding the length of a list              --------------------

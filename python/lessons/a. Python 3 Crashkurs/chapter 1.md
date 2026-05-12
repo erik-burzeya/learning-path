@@ -6,7 +6,7 @@
 1. Press: ***cmd + space***
 2. Open: "Terminal"
 3. Type: python3 --version OR python --version (FOR OLDER MacOS VERSIONS)
-*-> If an output such as “Python 3.x.x” appears, Python is already installed on your system.*
+*-> If an output such as “Python 3.x.x” appears, Python is already installed on your system.* 
 [4. If Python is **not** yet installed, download Python and follow the instructions.]
 
 ## On Windows:
