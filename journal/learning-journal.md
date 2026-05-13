@@ -85,3 +85,7 @@
 - Comparison-operators
 - Creating a data science folder and folder structure
 - Installing matplotlib
+
+## 13.06.2026
+- Practice task for CHAPTER 3: Visualizing Data
+- Cheat-Sheet.md created
