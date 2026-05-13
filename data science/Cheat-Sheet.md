@@ -36,7 +36,7 @@
 ## 5. Add Markers
     plt.plot(x, y, marker='o')
    
-   Marker styles:
+    Marker styles:
     'o'	= Circle
     's'	= Square
     '^'	= Triangle
