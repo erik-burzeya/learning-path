@@ -92,3 +92,4 @@
 
 ## 14.06.2026
 - Practicing simple data visualization for better recall
+- Creating bar charts (example)
