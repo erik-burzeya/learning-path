@@ -89,3 +89,6 @@
 ## 13.06.2026
 - Practice task for CHAPTER 3: Visualizing Data
 - Cheat-Sheet.md created
+
+## 14.06.2026
+- Practicing simple data visualization for better recall
