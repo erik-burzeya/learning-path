@@ -83,8 +83,11 @@
 - Reformatting my files according to the PEP 8
 - Chapter 5: if-statements
 - Comparison-operators
+- **Starting to work with the book "Data Science from Scratch" by Joel Grus**
 - Creating a data science folder and folder structure
 - Installing matplotlib
+- *My work with the book 'Data Science from Scratch' is written in uppercase,* 
+*while my work with the book 'Python Crash Course' is written in lowercase.*
 
 ## 13.06.2026
 - Practice task for CHAPTER 3: Visualizing Data

@@ -30,3 +30,17 @@ comparison_operators = ['== : is equal to',
 print("\nThis is a list of comparison operators:")
 for comparison_operator in comparison_operators:
     print(comparison_operator)
+
+
+# Example 1:
+
+age = 18
+age == 18
+# => TRUE
+
+
+# Example 2:
+
+car = 'BMW'
+car.lower() == 'bmw'
+# => TRUE
