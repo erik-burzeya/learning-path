@@ -96,3 +96,6 @@
 ## 14.06.2026
 - Practicing simple data visualization for better recall
 - Creating bar charts (example)
+
+## 17.06.2026
+- Naming conventions for folders, files, and Python code
