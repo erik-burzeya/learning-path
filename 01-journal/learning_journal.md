@@ -99,3 +99,7 @@
 
 ## 17.06.2026
 - Naming conventions for folders, files, and Python code
+
+## 18.06.2026
+- Installing Node.js, TypeScript and Code Runner for automatic in-memory TypeScript compilation
+- Writing my first line of TypeScript-code
