@@ -103,3 +103,5 @@
 ## 18.06.2026
 - Installing Node.js, TypeScript and Code Runner for automatic in-memory TypeScript compilation
 - Writing my first line of TypeScript-code
+- Setting up a repository for my portfolio website using .vercel
+- Creating a first structure and adding a profile image (pix-art style)
