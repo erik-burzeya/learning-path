@@ -105,3 +105,6 @@
 - Writing my first line of TypeScript-code
 - Setting up a repository for my portfolio website using .vercel
 - Creating a first structure and adding a profile image (pix-art style)
+
+## 19.06.2025
+- Using CSS and JSX to rework the website design (repository: portfolio-burzeya), add a curser animation and menu
