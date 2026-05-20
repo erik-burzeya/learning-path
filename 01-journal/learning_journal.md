@@ -108,3 +108,6 @@
 
 ## 19.06.2025
 - Using CSS and JSX to rework the website design (repository: portfolio-burzeya), add a curser animation and menu
+
+## 20.06.2026
+- Learning about basic types in TypeScript
