@@ -113,5 +113,5 @@
 - Learning about basic types in TypeScript
 - Starting my app-project (crps app for patients)
 
-## 21.- 22.06.2026
+## 21.- 23.06.2026
 *(Working on the crps app)*
