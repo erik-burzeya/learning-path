@@ -114,4 +114,8 @@
 - Starting my app-project (crps app for patients)
 
 ## 21.- 23.06.2026
-*(Working on the crps app)*
+- *Working on the crps app*
+
+## 29.06.2026
+- Working on Chapter 6: Dictionaries
+
