@@ -76,10 +76,10 @@
 ## 09.05.2026
 - Working on Chapter 4: Working with lists (slices, copying lists, etc.)
 
-## 11.06.2026
+## 11.05.2026
 - Finishing Chapter 4: Working with lists
 
-## 12.06.2026
+## 12.05.2026
 - Reformatting my files according to the PEP 8
 - Chapter 5: if-statements
 - Comparison-operators
@@ -89,33 +89,42 @@
 - *My work with the book 'Data Science from Scratch' is written in uppercase,* 
 *while my work with the book 'Python Crash Course' is written in lowercase.*
 
-## 13.06.2026
+## 13.05.2026
 - Practice task for CHAPTER 3: Visualizing Data
 - Cheat-Sheet.md created
 
-## 14.06.2026
+## 14.05.2026
 - Practicing simple data visualization for better recall
 - Creating bar charts (example)
 
-## 17.06.2026
+## 17.05.2026
 - Naming conventions for folders, files, and Python code
 
-## 18.06.2026
+## 18.05.2026
 - Installing Node.js, TypeScript and Code Runner for automatic in-memory TypeScript compilation
 - Writing my first line of TypeScript-code
 - Setting up a repository for my portfolio website using .vercel
 - Creating a first structure and adding a profile image (pix-art style)
 
-## 19.06.2025
+## 19.05.2025
 - Using CSS and JSX to rework the website design (repository: portfolio-burzeya), add a curser animation and menu
 
-## 20.06.2026
+## 20.05.2026
 - Learning about basic types in TypeScript
 - Starting my app-project (crps app for patients)
 
-## 21.- 23.06.2026
+## 21.- 23.05.2026
 - *Working on the crps app*
 
-## 29.06.2026
+## 29.05.2026
 - Working on Chapter 6: Dictionaries
 
+## 01.06.2026
+- Creating the repoistory iOS-watch-mini and Learning about simple (minimal)
+  web app project structures
+
+## 02.06.2026
+- Learning about basic shapes, gradients and filters in CSS (Project: iOS-watch-mini)
+
+## 03.06.2026
+- Adding a clock face (hour-, minute- and second hand)
