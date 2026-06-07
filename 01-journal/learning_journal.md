@@ -128,3 +128,6 @@
 
 ## 03.06.2026
 - Adding a clock face (hour-, minute- and second hand)
+
+## 07.06.2026
+- Creating a global color scheme for the crps-app and a settings page
