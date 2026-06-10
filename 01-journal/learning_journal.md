@@ -131,3 +131,7 @@
 
 ## 07.06.2026
 - Creating a global color scheme for the crps-app and a settings page
+
+## 08. 10.06.2026
+- Integrating a history tab to the app with features like opening a detailed view or deleting entries.
+- Adding a medication tab to the app
