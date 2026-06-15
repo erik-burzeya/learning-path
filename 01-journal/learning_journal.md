@@ -111,7 +111,7 @@
 
 ## 20.05.2026
 - Learning about basic types in TypeScript
-- Starting my app-project (crps app for patients)
+- **Starting my app-project (crps app for patients)** ([Repository](https://github.com/erik-burzeya/crps-tracker))
 
 ## 21.- 23.05.2026
 - *Working on the crps app*
@@ -132,6 +132,10 @@
 ## 07.06.2026
 - Creating a global color scheme for the crps-app and a settings page
 
-## 08. 10.06.2026
+## 08. - 15.06.2026 -- CRPS app
 - Integrating a history tab to the app with features like opening a detailed view or deleting entries.
 - Adding a medication tab to the app
+- Building a website for the app using Google AI Studio as a Concept Site/Preview ([Website](https://crps-demo-website.vercel.app))
+- Adding a liquid glass design to the tab bar using react (blur, shadow and color adaptation)
+- Creating a working export tab (needs work)
+- Reworking the light/dark mode
