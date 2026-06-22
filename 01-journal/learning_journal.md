@@ -139,3 +139,9 @@
 - Adding a liquid glass design to the tab bar using react (blur, shadow and color adaptation)
 - Creating a working export tab (needs work)
 - Reworking the light/dark mode
+
+## 16. - 21.06.
+- Working on various projects
+
+## 22. 06 2026
+- Starting to work on the course [Harvard CS50P](https://pll.harvard.edu/course/cs50s-introduction-programming-python)
