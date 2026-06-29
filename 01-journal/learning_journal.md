@@ -143,5 +143,9 @@
 ## 16. - 21.06.
 - Working on various projects
 
-## 22. 06 2026
+## 22.06.2026
 - Starting to work on the course [Harvard CS50P](https://pll.harvard.edu/course/cs50s-introduction-programming-python)
+
+## 23. - 29.06.2026
+-  Working on the course [Harvard CS50P](https://pll.harvard.edu/course/cs50s-introduction-programming-python)
+-  Working on a tutoring website
