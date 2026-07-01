@@ -149,3 +149,6 @@
 ## 23. - 29.06.2026
 -  Working on the course [Harvard CS50P](https://pll.harvard.edu/course/cs50s-introduction-programming-python)
 -  Working on a tutoring website
+
+## 01.07.2026
+- Working on my basic HTML knowledge (analog notebook)
